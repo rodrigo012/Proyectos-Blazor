@@ -1,0 +1,15 @@
+C:\Users\emman\Desktop\Emma\Alkemy\Falcons\Sincronismo\Sincronismo\bin\Debug\net6.0\Sincronismo.exe
+C:\Users\emman\Desktop\Emma\Alkemy\Falcons\Sincronismo\Sincronismo\bin\Debug\net6.0\Sincronismo.deps.json
+C:\Users\emman\Desktop\Emma\Alkemy\Falcons\Sincronismo\Sincronismo\bin\Debug\net6.0\Sincronismo.runtimeconfig.json
+C:\Users\emman\Desktop\Emma\Alkemy\Falcons\Sincronismo\Sincronismo\bin\Debug\net6.0\Sincronismo.dll
+C:\Users\emman\Desktop\Emma\Alkemy\Falcons\Sincronismo\Sincronismo\bin\Debug\net6.0\Sincronismo.pdb
+C:\Users\emman\Desktop\Emma\Alkemy\Falcons\Sincronismo\Sincronismo\obj\Debug\net6.0\Sincronismo.csproj.AssemblyReference.cache
+C:\Users\emman\Desktop\Emma\Alkemy\Falcons\Sincronismo\Sincronismo\obj\Debug\net6.0\Sincronismo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emman\Desktop\Emma\Alkemy\Falcons\Sincronismo\Sincronismo\obj\Debug\net6.0\Sincronismo.AssemblyInfoInputs.cache
+C:\Users\emman\Desktop\Emma\Alkemy\Falcons\Sincronismo\Sincronismo\obj\Debug\net6.0\Sincronismo.AssemblyInfo.cs
+C:\Users\emman\Desktop\Emma\Alkemy\Falcons\Sincronismo\Sincronismo\obj\Debug\net6.0\Sincronismo.csproj.CoreCompileInputs.cache
+C:\Users\emman\Desktop\Emma\Alkemy\Falcons\Sincronismo\Sincronismo\obj\Debug\net6.0\Sincronismo.dll
+C:\Users\emman\Desktop\Emma\Alkemy\Falcons\Sincronismo\Sincronismo\obj\Debug\net6.0\refint\Sincronismo.dll
+C:\Users\emman\Desktop\Emma\Alkemy\Falcons\Sincronismo\Sincronismo\obj\Debug\net6.0\Sincronismo.pdb
+C:\Users\emman\Desktop\Emma\Alkemy\Falcons\Sincronismo\Sincronismo\obj\Debug\net6.0\Sincronismo.genruntimeconfig.cache
+C:\Users\emman\Desktop\Emma\Alkemy\Falcons\Sincronismo\Sincronismo\obj\Debug\net6.0\ref\Sincronismo.dll
