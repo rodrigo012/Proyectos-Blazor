@@ -1,0 +1,37 @@
+﻿@page "/selecciones"
+@using CopaMundial.Models
+@model CopaMundial.Pages.TeamsModel
+@{
+
+    List<Team> listaSeleccion = new List<Team>(){
+        new Team(){
+            Codigo = "ARG",
+            Nombre = "Argentina"
+        },
+        new Team(){
+            Codigo = "VEN",
+            Nombre = "Venezuela"
+        },
+        new Team(){
+            Codigo = "ARA",
+            Nombre = "Emiratos Arabes"
+        }
+    };
+}
+<h1>Lista de Selecciones</h1>  
+<table class="table table-success table-striped">
+    <tr>
+        <th>Codigo</th>
+        <th>Nombre de Seleccion</th>
+    </tr>
+    @{
+        foreach (Team t in listaSeleccion)
+        {
+            <tr>
+                <td>@t.Codigo</td>
+                <td>@t.Nombre</td>
+                <td> <a href="/playerTeams/@t.Codigo">Jugadores</a>   </td>
+            </tr>
+        }
+    }
+</table>

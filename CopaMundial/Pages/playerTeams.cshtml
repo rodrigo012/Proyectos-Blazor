@@ -1,0 +1,37 @@
+﻿@page "{parametroCod}"
+@using CopaMundial.Models
+@model CopaMundial.Pages.playerTeamsModel
+@{
+    List<Team> listaJugador = new List<Team>(){
+        new Team(){
+            Codigo = "ARG",
+            Nombre = "Messi",
+          //  Posicion = "Delantero"
+        },
+        new Team(){
+            Codigo = "VEN",
+            Nombre = "Alvarez",
+          //  Posicion = "Delantero"
+        },
+        new Team(){
+            Codigo = "ARA",
+            Nombre = "Soteldo",
+           // Posicion = "Delantero"
+        }
+    };
+    var reg = listaJugador.FirstOrDefault(x => x.Codigo == @Model.codigo);
+
+}
+
+
+}
+<div class="container-fluid" style="background-color:cadetblue; padding:30px">
+    <div class="mb-3">
+        <label class="form-label">Pais</label>
+        @reg?.Codigo
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Nombre</label>
+        @reg?.Nombre
+    </div>
+</div>

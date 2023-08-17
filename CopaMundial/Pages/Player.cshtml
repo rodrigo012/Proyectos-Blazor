@@ -1,0 +1,40 @@
+﻿@page "{parametroId}"
+@using CopaMundial.Models
+@model CopaMundial.Pages.PlayerModel
+@{
+
+    List<Jugador> listaJugador = new List<Jugador>(){
+        new Jugador(){
+            Id = 1,
+            Nombre = "Messi",
+            Posicion = "Delantero"
+        },
+        new Jugador(){
+            Id = 2,
+            Nombre = "Alvarez",
+            Posicion = "Delantero"
+        },
+        new Jugador(){
+            Id = 3,
+            Nombre = "Soteldo",
+            Posicion = "Delantero"
+        }
+    };
+
+    var registro = listaJugador.FirstOrDefault(x => x.Id == @Model.Id);
+
+}
+<div class="container-fluid" style="background-color:lightgrey; padding:30px">
+    <div class="mb-3">
+        <label class="form-label">Id</label>
+        @registro?.Id
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Nombre</label>
+        @registro?.Nombre
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Posicion</label>
+        @registro?.Posicion
+    </div>
+</div>

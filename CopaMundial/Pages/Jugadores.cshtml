@@ -1,0 +1,44 @@
+﻿@page "/players"
+@using CopaMundial.Models
+@model CopaMundial.Pages.JugadoresModel
+@{
+
+    List<Jugador> listaJugador = new List<Jugador>(){
+        new Jugador(){
+            Id = 1,
+            Nombre = "Messi",
+            Posicion = "Delantero"
+        },
+        new Jugador(){
+            Id = 2,
+            Nombre = "Alvarez",
+            Posicion = "Delantero"
+        },
+        new Jugador(){
+            Id = 3,
+            Nombre = "Soteldo",
+            Posicion = "Delantero"
+        }
+    };
+
+}
+<h1>Lista de Jugadores</h1>  
+<table class="table table-success table-striped">
+    <tr>
+        <th>Id</th>
+        <th>Nombre del Jugador</th>
+        <th>Posicion</th>
+        <th></th>
+    </tr>
+
+    @foreach (Jugador j in listaJugador)
+    {
+        <tr>
+            <td>@j.Id</td>
+            <td>@j.Nombre</td>
+            <td>@j.Posicion</td>
+            <td> <a href="/player/@j.Id">Ver Informacion</a>   </td>
+        </tr>
+    }
+
+</table>
